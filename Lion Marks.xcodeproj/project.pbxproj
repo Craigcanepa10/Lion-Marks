@@ -14,7 +14,7 @@
 		CD452EDE271F7DA40067C2EF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452EDD271F7DA40067C2EF /* ContentViewModel.swift */; };
 		CD452EE0271F7DC10067C2EF /* alertstuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452EDF271F7DC10067C2EF /* alertstuff.swift */; };
 		CD452EE2271F7DE30067C2EF /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */; };
-		CD452EE6271F81260067C2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD452EE5271F81260067C2EF /* Assets.xcassets */; };
+		CD452EEA271F8B830067C2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD452EE9271F8B830067C2EF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		CD452EDD271F7DA40067C2EF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		CD452EDF271F7DC10067C2EF /* alertstuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertstuff.swift; sourceTree = "<group>"; };
 		CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
-		CD452EE5271F81260067C2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		CD452EE9271F8B830067C2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */,
 				CD452ECD271F7CE00067C2EF /* Lion_MarksApp.swift */,
 				CD452EDB271F7D330067C2EF /* Launch Screen.storyboard */,
-				CD452EE5271F81260067C2EF /* Assets.xcassets */,
+				CD452EE9271F8B830067C2EF /* Assets.xcassets */,
 				CD452ED3271F7CE20067C2EF /* Preview Content */,
 			);
 			path = "Lion Marks";
@@ -139,7 +139,7 @@
 			files = (
 				CD452EDC271F7D330067C2EF /* Launch Screen.storyboard in Resources */,
 				CD452ED5271F7CE20067C2EF /* Preview Assets.xcassets in Resources */,
-				CD452EE6271F81260067C2EF /* Assets.xcassets in Resources */,
+				CD452EEA271F8B830067C2EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
