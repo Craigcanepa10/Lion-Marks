@@ -9,16 +9,24 @@
 /* Begin PBXBuildFile section */
 		CD452ECE271F7CE00067C2EF /* Lion_MarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452ECD271F7CE00067C2EF /* Lion_MarksApp.swift */; };
 		CD452ED0271F7CE00067C2EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452ECF271F7CE00067C2EF /* ContentView.swift */; };
-		CD452ED2271F7CE20067C2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD452ED1271F7CE20067C2EF /* Assets.xcassets */; };
 		CD452ED5271F7CE20067C2EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD452ED4271F7CE20067C2EF /* Preview Assets.xcassets */; };
+		CD452EDC271F7D330067C2EF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD452EDB271F7D330067C2EF /* Launch Screen.storyboard */; };
+		CD452EDE271F7DA40067C2EF /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452EDD271F7DA40067C2EF /* ContentViewModel.swift */; };
+		CD452EE0271F7DC10067C2EF /* alertstuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452EDF271F7DC10067C2EF /* alertstuff.swift */; };
+		CD452EE2271F7DE30067C2EF /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */; };
+		CD452EE6271F81260067C2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD452EE5271F81260067C2EF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD452ECA271F7CE00067C2EF /* Lion Marks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lion Marks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD452ECD271F7CE00067C2EF /* Lion_MarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion_MarksApp.swift; sourceTree = "<group>"; };
 		CD452ECF271F7CE00067C2EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CD452ED1271F7CE20067C2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD452ED4271F7CE20067C2EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD452EDB271F7D330067C2EF /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CD452EDD271F7DA40067C2EF /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		CD452EDF271F7DC10067C2EF /* alertstuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertstuff.swift; sourceTree = "<group>"; };
+		CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		CD452EE5271F81260067C2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +59,13 @@
 		CD452ECC271F7CE00067C2EF /* Lion Marks */ = {
 			isa = PBXGroup;
 			children = (
-				CD452ECD271F7CE00067C2EF /* Lion_MarksApp.swift */,
+				CD452EDF271F7DC10067C2EF /* alertstuff.swift */,
 				CD452ECF271F7CE00067C2EF /* ContentView.swift */,
-				CD452ED1271F7CE20067C2EF /* Assets.xcassets */,
+				CD452EDD271F7DA40067C2EF /* ContentViewModel.swift */,
+				CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */,
+				CD452ECD271F7CE00067C2EF /* Lion_MarksApp.swift */,
+				CD452EDB271F7D330067C2EF /* Launch Screen.storyboard */,
+				CD452EE5271F81260067C2EF /* Assets.xcassets */,
 				CD452ED3271F7CE20067C2EF /* Preview Content */,
 			);
 			path = "Lion Marks";
@@ -125,8 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD452EDC271F7D330067C2EF /* Launch Screen.storyboard in Resources */,
 				CD452ED5271F7CE20067C2EF /* Preview Assets.xcassets in Resources */,
-				CD452ED2271F7CE20067C2EF /* Assets.xcassets in Resources */,
+				CD452EE6271F81260067C2EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD452ED0271F7CE00067C2EF /* ContentView.swift in Sources */,
+				CD452EE2271F7DE30067C2EF /* CustomPointAnnotation.swift in Sources */,
 				CD452ECE271F7CE00067C2EF /* Lion_MarksApp.swift in Sources */,
+				CD452EDE271F7DA40067C2EF /* ContentViewModel.swift in Sources */,
+				CD452EE0271F7DC10067C2EF /* alertstuff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +288,13 @@
 				DEVELOPMENT_TEAM = J96XY6SDR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -287,7 +305,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +320,13 @@
 				DEVELOPMENT_TEAM = J96XY6SDR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,7 +337,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
