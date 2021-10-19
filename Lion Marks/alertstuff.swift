@@ -15,7 +15,7 @@ class alertstuff: UIViewController {
             }
             return topController
         }
-    //hi
+    
     
     func locationManagers() {
         let topVC = topMostController()
