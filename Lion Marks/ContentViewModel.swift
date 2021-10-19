@@ -10,7 +10,7 @@ import SwiftUI
 
 class ContentViewModel: NSObject, ObservableObject, CLLocationManagerDelegate{
     @State private var alerty = alertstuff()
-        //change
+        
     
     var locationManager: CLLocationManager?
     
