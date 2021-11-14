@@ -1,0 +1,42 @@
+Fayard Hall Drinks (First Floor)
+1.    Coke
+2.    Coke (Zero Sugar)
+3.    Diet Coke
+4.    Sprite
+5.    Barg’s Root Beer
+6.    Dr. Pepper
+7.    Diet Dr. Pepper
+8.    Powerade (blue)
+9.    Dasani Water
+10.    Smart Water
+
+Fayard Hall Drinks (Second Floor)
+1.    Smart Water
+2.    Gold Peak
+3.    Power Water
+4.    Minute Maid
+5.    Core Power (Chocolate)
+6.    Core Power (Vanilla)
+7.    Dunkin Donuts Iced Coffee
+
+Fayard Hall Snacks (Third Floor)
+1.    Ruffles
+2.    Smartfood
+3.    Zapps
+4.    Doritos
+5.    Cheetos
+6.    Cheetos
+7.    Cheez-Its
+8.    Goldfish
+9.    Ritz Chips
+10.    Rice Krispie Treats
+11.    Oreo Mini
+12.    Twix
+13.    Peanut M&Ms
+14.    3 Musketeers
+15.    Reese’s
+16.    Nature Valley
+17.    Skittles
+18.    Sour Patch Kids
+19.    Pop Tarts (Strawberry)
+20.    Oreo Brownie

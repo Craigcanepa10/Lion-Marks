@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B95E0A8B640184CCEEAF10F3 /* libPods-Lion Marks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD6289BF8418DE7CA87EB44 /* libPods-Lion Marks.a */; };
 		CD452ECE271F7CE00067C2EF /* Lion_MarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452ECD271F7CE00067C2EF /* Lion_MarksApp.swift */; };
 		CD452ED0271F7CE00067C2EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452ECF271F7CE00067C2EF /* ContentView.swift */; };
 		CD452ED5271F7CE20067C2EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD452ED4271F7CE20067C2EF /* Preview Assets.xcassets */; };
@@ -15,9 +16,17 @@
 		CD452EE0271F7DC10067C2EF /* alertstuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452EDF271F7DC10067C2EF /* alertstuff.swift */; };
 		CD452EE2271F7DE30067C2EF /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */; };
 		CD452EEA271F8B830067C2EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD452EE9271F8B830067C2EF /* Assets.xcassets */; };
+		CDD2CB3E273CCC1400A69383 /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD2CB3D273CCC1400A69383 /* GoogleMapView.swift */; };
+		CDD2CB41273CDBA000A69383 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD2CB40273CDBA000A69383 /* LocationManager.swift */; };
+		CDD2CB43273DCEEC00A69383 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = CDD2CB42273DCEEC00A69383 /* style.json */; };
+		CDD2CB462741A22700A69383 /* MapMarker View.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD2CB452741A22700A69383 /* MapMarker View.xib */; };
+		CDD2CB4A2741BABE00A69383 /* VendingInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDD2CB492741BABE00A69383 /* VendingInfo.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		172F5DB80B11462D6B0F059F /* Pods-Lion Marks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lion Marks.debug.xcconfig"; path = "Target Support Files/Pods-Lion Marks/Pods-Lion Marks.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD6289BF8418DE7CA87EB44 /* libPods-Lion Marks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lion Marks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E6AC066DB85D89D0C593F3 /* Pods-Lion Marks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lion Marks.release.xcconfig"; path = "Target Support Files/Pods-Lion Marks/Pods-Lion Marks.release.xcconfig"; sourceTree = "<group>"; };
 		CD452ECA271F7CE00067C2EF /* Lion Marks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lion Marks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD452ECD271F7CE00067C2EF /* Lion_MarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion_MarksApp.swift; sourceTree = "<group>"; };
 		CD452ECF271F7CE00067C2EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +36,11 @@
 		CD452EDF271F7DC10067C2EF /* alertstuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertstuff.swift; sourceTree = "<group>"; };
 		CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
 		CD452EE9271F8B830067C2EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDD2CB3D273CCC1400A69383 /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		CDD2CB40273CDBA000A69383 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CDD2CB42273DCEEC00A69383 /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		CDD2CB452741A22700A69383 /* MapMarker View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MapMarker View.xib"; sourceTree = "<group>"; };
+		CDD2CB492741BABE00A69383 /* VendingInfo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = VendingInfo.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95E0A8B640184CCEEAF10F3 /* libPods-Lion Marks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E877512219C6C8CF157420E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				172F5DB80B11462D6B0F059F /* Pods-Lion Marks.debug.xcconfig */,
+				B6E6AC066DB85D89D0C593F3 /* Pods-Lion Marks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3F46D366D8DEFA9DCDD545D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD6289BF8418DE7CA87EB44 /* libPods-Lion Marks.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD452EC1271F7CE00067C2EF = {
 			isa = PBXGroup;
 			children = (
 				CD452ECC271F7CE00067C2EF /* Lion Marks */,
 				CD452ECB271F7CE00067C2EF /* Products */,
+				8E877512219C6C8CF157420E /* Pods */,
+				B3F46D366D8DEFA9DCDD545D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +94,17 @@
 			isa = PBXGroup;
 			children = (
 				CD452EDF271F7DC10067C2EF /* alertstuff.swift */,
+				CDD2CB40273CDBA000A69383 /* LocationManager.swift */,
+				CDD2CB3D273CCC1400A69383 /* GoogleMapView.swift */,
 				CD452ECF271F7CE00067C2EF /* ContentView.swift */,
 				CD452EDD271F7DA40067C2EF /* ContentViewModel.swift */,
 				CD452EE1271F7DE30067C2EF /* CustomPointAnnotation.swift */,
 				CD452ECD271F7CE00067C2EF /* Lion_MarksApp.swift */,
 				CD452EDB271F7D330067C2EF /* Launch Screen.storyboard */,
+				CDD2CB452741A22700A69383 /* MapMarker View.xib */,
 				CD452EE9271F8B830067C2EF /* Assets.xcassets */,
+				CDD2CB42273DCEEC00A69383 /* style.json */,
+				CDD2CB492741BABE00A69383 /* VendingInfo.txt */,
 				CD452ED3271F7CE20067C2EF /* Preview Content */,
 			);
 			path = "Lion Marks";
@@ -86,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD452ED8271F7CE20067C2EF /* Build configuration list for PBXNativeTarget "Lion Marks" */;
 			buildPhases = (
+				272E8D091D839EBF910BE794 /* [CP] Check Pods Manifest.lock */,
 				CD452EC6271F7CE00067C2EF /* Sources */,
 				CD452EC7271F7CE00067C2EF /* Frameworks */,
 				CD452EC8271F7CE00067C2EF /* Resources */,
+				D9E540B3A2CA0559D35CE844 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,21 +178,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD2CB462741A22700A69383 /* MapMarker View.xib in Resources */,
 				CD452EDC271F7D330067C2EF /* Launch Screen.storyboard in Resources */,
+				CDD2CB4A2741BABE00A69383 /* VendingInfo.txt in Resources */,
 				CD452ED5271F7CE20067C2EF /* Preview Assets.xcassets in Resources */,
 				CD452EEA271F8B830067C2EF /* Assets.xcassets in Resources */,
+				CDD2CB43273DCEEC00A69383 /* style.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		272E8D091D839EBF910BE794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lion Marks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E540B3A2CA0559D35CE844 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lion Marks/Pods-Lion Marks-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lion Marks/Pods-Lion Marks-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lion Marks/Pods-Lion Marks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD452EC6271F7CE00067C2EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD2CB3E273CCC1400A69383 /* GoogleMapView.swift in Sources */,
 				CD452ED0271F7CE00067C2EF /* ContentView.swift in Sources */,
 				CD452EE2271F7DE30067C2EF /* CustomPointAnnotation.swift in Sources */,
+				CDD2CB41273CDBA000A69383 /* LocationManager.swift in Sources */,
 				CD452ECE271F7CE00067C2EF /* Lion_MarksApp.swift in Sources */,
 				CD452EDE271F7DA40067C2EF /* ContentViewModel.swift in Sources */,
 				CD452EE0271F7DC10067C2EF /* alertstuff.swift in Sources */,
@@ -279,6 +367,7 @@
 		};
 		CD452ED9271F7CE20067C2EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172F5DB80B11462D6B0F059F /* Pods-Lion Marks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -288,7 +377,8 @@
 				DEVELOPMENT_TEAM = J96XY6SDR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
+				INFOPLIST_FILE = "Lion-Marks-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +401,7 @@
 		};
 		CD452EDA271F7CE20067C2EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E6AC066DB85D89D0C593F3 /* Pods-Lion Marks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +411,8 @@
 				DEVELOPMENT_TEAM = J96XY6SDR4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
+				INFOPLIST_FILE = "Lion-Marks-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
